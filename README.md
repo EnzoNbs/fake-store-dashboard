@@ -1,29 +1,66 @@
-# fake-store-dashboard
+## Descrição do Projeto
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto consiste na criação de um painel de controle para gerenciar as informações de uma loja online utilizando a API Fake Store. O painel permite o visualização e manipulação de dados relacionados a produtos, categorias, carrinhos (pedidos) e usuários. Desenvolvido com Vue.Js 3 e Vite
 
-## Recommended IDE Setup
+# API
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+O painel consome dados da API Fake Store através do endpoint: https://fakestoreapi.com/.
 
-## Customize configuration
+## Funcionalidades
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Recursos do painel:
+  - Visão geral dos indicadores:
+    - Total de produtos.
+    - Número de categorias.
+    - Quandidade de Pedidos.
+    - Número total de usuários.
 
-## Project Setup
+Gerenciar produtos:
+  - Visualizar todos os produtos.
+  - Visualizar detalhes de um produto específico.
+  - Filtrar e classificar produtos.
+  - Adicionar, atualizar e remover produtos.
 
+Gerenciar carrinhos:
+  - Listar todos os carrinhos de compras.
+  - Visualizar detalhes de um pedido.
+  - Filtrar carrinhos por data ou usuário.
+  - Adicionar, atualizar e remover carrinho.
+
+Gerenciar usuários:
+  - Listar todos os usuários.
+  - Visualizar detalhes de um usuário específico.
+  - Adicionar, atualizar e remover usuário.
+
+Autenticação:
+  - Tela de Login para acessar o sistema.
+
+# Tecnologias usadas
+  - Vue.Js 3
+  - Vite
+  - Axios
+  - Vue Router
+    
+## Executar o projeto
+
+- Clone o repositório
+```
+git clone https://github.com/EnzoNbs/fake-store-dashboard.git
+cd fake-store-dashboard
+```
+- Instalar dependências.
 ```sh
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
+- Iniciar servidor de desenvolvimento.
 ```sh
 npm run dev
 ```
+- Acessar o localhost fornecido pelo terminal
 
-### Compile and Minify for Production
-
-```sh
-npm run build
+# Login para teste
+Para fazer login, deve-se usar um e-mail de um usuário da API e os 4 últimos dígitos do telefone do mesmo. Exemplo:
 ```
+Usuário: john@gmail.com
+Senha: 7033
+``` 
