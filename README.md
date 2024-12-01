@@ -30,6 +30,7 @@ Gerenciar carrinhos:
 Gerenciar usuários:
   - Listar todos os usuários.
   - Visualizar detalhes de um usuário específico.
+  - Pesquisar nome do usuário.
   - Adicionar, atualizar e remover usuário.
 
 Autenticação:
