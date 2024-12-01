@@ -1,12 +1,12 @@
-## Descrição do Projeto
+# Descrição do Projeto
 
 Este projeto consiste na criação de um painel de controle para gerenciar as informações de uma loja online utilizando a API Fake Store. O painel permite o visualização e manipulação de dados relacionados a produtos, categorias, carrinhos (pedidos) e usuários. Desenvolvido com Vue.Js 3 e Vite
 
-# API
+## API
 
 O painel consome dados da API Fake Store através do endpoint: https://fakestoreapi.com/.
 
-## Funcionalidades
+# Funcionalidades
 
 Recursos do painel:
   - Visão geral dos indicadores:
@@ -35,13 +35,13 @@ Gerenciar usuários:
 Autenticação:
   - Tela de Login para acessar o sistema.
 
-# Tecnologias usadas
+## Tecnologias usadas
   - Vue.Js 3
   - Vite
   - Axios
   - Vue Router
     
-## Executar o projeto
+# Executar o projeto
 
 - Clone o repositório
 ```
@@ -58,7 +58,7 @@ npm run dev
 ```
 - Acessar o localhost fornecido pelo terminal
 
-# Login para teste
+## Login para teste
 Para fazer login, deve-se usar um e-mail de um usuário da API e os 4 últimos dígitos do telefone do mesmo. Exemplo:
 ```
 Usuário: john@gmail.com
