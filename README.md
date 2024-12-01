@@ -60,7 +60,7 @@ npm run dev
 - Acessar o localhost fornecido pelo terminal
 
 ## Login para teste
-Para fazer login, deve-se usar um e-mail de um usuário da API e os 4 últimos dígitos do telefone do mesmo. Exemplo:
+Para fazer login, deve-se usar um e-mail de um usuário registrado na API e os 4 últimos dígitos do telefone do mesmo. Exemplo:
 ```
 Usuário: john@gmail.com
 Senha: 7033
